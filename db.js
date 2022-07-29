@@ -12,7 +12,7 @@ const sync = async () => {
 
   CREATE TABLE movies(
     id SERIAL,
-    Title VARCHAR(255) NOT NULL UNIQUE,
+    Title VARCHAR(255) NOT NULL UNIQUE, 
     Year VARCHAR(255),
     Poster VARCHAR(65535),
     Overview VARCHAR(65535),
